@@ -15,7 +15,7 @@ function StringState(){
     console.log('After', newTopping)
 
     return (
-        <div>
+        <div className='w-48 m-auto'>
             <h1 className='text-2xl'>Pizza Toppings</h1>
             <input type="text" name="topping" placeholder="Add new topping" onChange={handleChange} />
         </div>

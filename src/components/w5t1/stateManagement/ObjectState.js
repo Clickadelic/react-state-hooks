@@ -47,12 +47,12 @@ export default function ObjectState(){
 
     // Return statement
     return (
-        <div>
-            <h1>Membership</h1>
+        <div className='w-48 m-auto pt-5'>
+            <h1 className='text-white text-3xl mb-5'>Membership</h1>
             <form className="block w-80">
-                <input type="text" name="fistname" placeholder="Firstname" onChange={handleChange} />
-                <input type="text" name="lastname" placeholder="Lastname" onChange={handleChange} />
-                <input type="text" name="country" placeholder="Firstname" onChange={handleChange} />
+                <input type="text" className='block p-3 mb-1 rounded-md outline-0' name="fistname" placeholder="Firstname" onChange={handleChange} />
+                <input type="text" className='block p-3 mb-1 rounded-md outline-0' name="lastname" placeholder="Lastname" onChange={handleChange} />
+                <input type="text" className='block p-3 mb-1 rounded-md outline-0' name="country" placeholder="Firstname" onChange={handleChange} />
                 <button onClick={addMember}>Add member</button>
             </form>
             {/* <div>{memberShip ? : }</div> */}

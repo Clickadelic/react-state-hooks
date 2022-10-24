@@ -5,7 +5,7 @@ import ObjectState from './components/w5t1/stateManagement/ObjectState';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-gray-800 w-full h-screen">
       <ObjectState />
     </div>
   );
